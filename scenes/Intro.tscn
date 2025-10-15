@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://intro_scene_001"]
+
+[ext_resource type="Script" path="res://scripts/Intro.gd" id="1_6yq3m"]
+
+[node name="Intro" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Video" type="VideoStreamPlayer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand = true
+autoplay = true
+script = ExtResource("1_6yq3m")
+
+
