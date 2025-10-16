@@ -1,6 +1,6 @@
 extends Node
 
-@export var ws_url: String = "ws://127.0.0.1:7777"
+@export var ws_url: String = "ws://localhost:7777"
 @export var send_interval_seconds: float = 0.1
 @export var viewport_size: Vector2i = Vector2i(320, 240)
 @export var show_overlay: bool = true
